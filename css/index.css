@@ -53,6 +53,10 @@ section#intro-header .btn-default {
 	border: none;
 }
 
+.hidden-element {
+	display: none;
+}
+
 section#about img {
 	margin-top: 6.5rem;
 	margin-bottom: 5rem;
