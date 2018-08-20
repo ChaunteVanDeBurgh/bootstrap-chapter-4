@@ -1,6 +1,10 @@
+/* Universal Style(s) */
+
 .nowrap {
 	white-space: nowrap;
 }
+
+/* Header Section */
 
 @media (max-width: 48em) {
 	table .btn {
@@ -57,6 +61,8 @@ section#intro-header .btn-default {
 	display: none;
 }
 
+/* About Section */
+
 section#about img {
 	margin-top: 6.5rem;
 	margin-bottom: 5rem;
@@ -65,6 +71,8 @@ section#about img {
 section#about h3 {
 	margin-top: 10rem;
 }
+
+/* Features Section */
 
 section#features {
 	background-color: #eef2f5;
@@ -81,6 +89,8 @@ section#features .feature {
 	padding-bottom: 4rem;
 	text-align: center;
 }
+
+/* Pricing Section */
 
 section#pricing h3.price-headline {
 	margin-top: 5rem;
@@ -114,6 +124,48 @@ section#pricing tbody .info {
 section#pricing tbody .danger {
 	background-color: #EB6379;
 }
+
+/* Newsletter Section */
+
+section#newsletter {
+	border-top: 1px solid #E0E0E0;
+	padding-top: 3.2em;
+	margin-top: 2em;
+}
+
+section#newsletter h4 {
+	padding: 1em;
+}
+
+section#newsletter form {
+	padding: 1em;
+	margin-top: 2em;
+	margin-bottom: 5.5em;
+}
+
+/* Contact Section */
+
+section#contact form {
+	padding-top: 9rem;
+	padding-bottom: 3rem;
+}
+
+/* Team Section */
+
+section#team ul {
+	margin: 5rem 0;
+}
+
+section#team li {
+	margin: 0 5rem;
+}
+
+section#team h5 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/* Footer Section */
 
 footer {
 	background-color: #191919;
@@ -153,23 +205,3 @@ footer a:hover {
 	color: #FFF;
 }
 
-section#newsletter {
-	border-top: 1px solid #E0E0E0;
-	padding-top: 3.2em;
-	margin-top: 2em;
-}
-
-section#newsletter h4 {
-	padding: 1em;
-}
-
-section#newsletter form {
-	padding: 1em;
-	margin-top: 2em;
-	margin-bottom: 5.5em;
-}
-
-section#contact form {
-	padding-top: 9rem;
-	padding-bottom: 3rem;
-}
