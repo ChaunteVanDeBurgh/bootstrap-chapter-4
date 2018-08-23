@@ -125,6 +125,10 @@ section#pricing tbody .danger {
 	background-color: #EB6379;
 }
 
+section#pricing .center-block {
+	width: 90%;
+}
+
 /* Newsletter Section */
 
 section#newsletter {
