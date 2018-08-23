@@ -90,6 +90,28 @@ section#features .feature {
 	text-align: center;
 }
 
+section#features .feature {
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+	text-align: center;
+}
+
+section#features .glyphicon {
+	font-size: 2rem;
+}
+
+section#features .glyphicon-heart {
+	color:#e04c4c;
+}
+
+section#features .feature-tag {
+	max-width: 10.7em;
+	display: inline-block;
+	text-align: left;
+	margin-left: 1.5em;
+	font-size: 1.7rem;
+}
+
 /* Pricing Section */
 
 section#pricing h3.price-headline {
