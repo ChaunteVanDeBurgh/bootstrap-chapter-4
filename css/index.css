@@ -4,6 +4,9 @@
 	white-space: nowrap;
 }
 
+/* Navbar Section */
+
+
 /* Header Section */
 
 @media (max-width: 48em) {
@@ -23,7 +26,6 @@ header ul {
 
 header a,
 header li {
-	padding: 1.4rem 0;
 	color: #777;
 	font-weight: bold;
 }
